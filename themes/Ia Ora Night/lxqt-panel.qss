@@ -758,3 +758,26 @@ QCalendarWidget QSpinBox::down-arrow {
     qproperty-netReceivedColor: #5d658e;
     qproperty-netTransmittedColor: #272f4f;
 }
+
+/* Line/Dot Spacers */
+#Spacer {
+    background-position: center;
+}
+
+#Spacer[type="lined"] {
+    background-image: url(/assets/panel/line.svg);
+}
+
+#Spacer[type="dotted"] {
+    background-image: url(/assets/panel/dot.svg);
+}
+
+#Spacer[orientation="horizontal"] {
+    background-repeat: repeat-y;
+    margin: 4px 1px;
+}
+
+#Spacer[orientation="vertical"] {
+    background-repeat: repeat-x;
+    margin: 1px 4px;
+}
